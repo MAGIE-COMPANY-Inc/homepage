@@ -40,4 +40,4 @@ jobs:
           server: ${{ secrets.STAGING_SERVER }}
           username: ${{ secrets.STAGING_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: "./dist/"
+          local-dir: "./build/"
