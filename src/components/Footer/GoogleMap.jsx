@@ -1,28 +1,45 @@
-import GoogleMapReact from 'google-map-react';
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
-function GoogleMap() {
-  const defaultLatLng = {
-    lat: 34.6956849,
-    lng: 135.1907174,
+const Map = () => {
+  const mapStyles = {
+    height: '400px',
+    width: '800px',
   };
 
-  const handleApiLoaded = ({ map, maps }) => {
-    maps.Marker({
-      map,
-      position: defaultLatLng,
-    });
+  const defaultCenter = {
+    lat: 34.6956849, lng: 135.1907174,
   };
+
+  const locations = [
+    {
+      name: 'ハックバー',
+      location: {
+        lat: 34.695689,
+        lng: 135.192923,
+      },
+    },
+  ];
 
   return (
-    <div style={{ marginTop: '70px', height: '500px', width: '1000px' }}>
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: process.env.REACT_APP_API_KEY }}
-        defaultCenter={defaultLatLng}
-        defaultZoom={16}
-        onGoogleApiLoaded={handleApiLoaded}
-      />
-    </div>
+    <LoadScript
+      googleMapsApiKey={process.env.REACT_APP_API_KEY}
+      language="ja"
+    >
+      <div style={{ marginTop: '50px' }}>
+        <GoogleMap
+          mapContainerStyle={mapStyles}
+          zoom={13}
+          center={defaultCenter}
+        >
+          {
+            locations.map((item) => (
+              <Marker key={item.name} position={item.location} />
+            ))
+          }
+        </GoogleMap>
+      </div>
+    </LoadScript>
   );
-}
+};
 
-export default GoogleMap;
+export default Map;

@@ -1,6 +1,6 @@
 import { FiTwitter, FiInstagram, FiLinkedin } from 'react-icons/fi';
 import { FooterOverlay } from '../../components';
-import GoogleMap from '../../components/Footer/GoogleMap';
+import Map from '../../components/Footer/GoogleMap';
 import Twitter from '../../components/Footer/Twitter';
 import images from '../../constants/images';
 import './Footer.css';
@@ -9,7 +9,7 @@ const Footer = () => (
   <div className="app__footer section__padding" id="login">
     <FooterOverlay />
     <Twitter />
-    <GoogleMap />
+    <Map />
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext" id="contact">Contact Us</h1>
