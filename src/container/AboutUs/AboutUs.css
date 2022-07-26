@@ -19,13 +19,13 @@
 }
 
 .app__aboutus-content_about {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
+    /* flex: 1; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    /* flex-direction: column; */
 
-    text-align: right;
+    text-align: center;
 }
 
 .app__aboutus-content_knife {
