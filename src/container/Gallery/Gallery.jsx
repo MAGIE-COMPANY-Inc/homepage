@@ -24,7 +24,16 @@ const Gallery = () => {
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>毎月行われるイベントや落ち着いた雰囲気の店内の様子をお楽しみください</p>
-        <button type="button" className="custom__button">View More</button>
+        <button type="button" className="custom__button">
+          <a
+            href="https://www.instagram.com/kobe.engineer_bar/"
+            style={{ color: 'black' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View More
+          </a>
+        </button>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>

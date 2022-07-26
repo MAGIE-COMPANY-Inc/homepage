@@ -6,7 +6,7 @@ import images from '../../constants/images';
 import './Footer.css';
 
 const Footer = () => (
-  <div className="app__footer section__padding" id="login">
+  <div className="app__footer section__padding">
     <FooterOverlay />
     <Twitter />
     <Map />
@@ -21,9 +21,30 @@ const Footer = () => (
         <p className="p__opensans">&quot;世界中のエンジニアとの交流も支援しています&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
-          <FiTwitter />
-          <FiInstagram />
-          <FiLinkedin />
+          <a
+            href="https://twitter.com/EngineerBarKobe"
+            style={{ color: 'white' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiTwitter />
+          </a>
+          <a
+            href="https://www.instagram.com/kobe.engineer_bar/"
+            style={{ color: 'white' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiInstagram />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/hack-bar/"
+            style={{ color: 'white' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiLinkedin />
+          </a>
         </div>
       </div>
 
