@@ -32,6 +32,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
+/* 
+.moon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px var(--color-golden);
+  float: right;
+} */
 
 .app__wrapper_img {
   flex: 1;
@@ -40,17 +48,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
   margin-left: 2rem;
-}
-
-.app__wrapper_img-reverse {
-  justify-content: flex-start;
-  margin-right: 2rem;
 }
 
 .app__wrapper_img img {
   width: 80%;
+  box-shadow: 10px 10px 5px var(--color-golden);;
 }
 
 .custom__button {
@@ -138,10 +141,6 @@
 
   .app__wrapper_img {
     margin: 5rem 0 0 0;
-  }
-
-  .app__wrapper_img-reverse {
-    margin: 0 0 5rem 0;
   }
 
   .app__wrapper_img img {
