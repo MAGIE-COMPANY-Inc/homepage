@@ -1,3 +1,8 @@
+.container {
+  overflow: hidden;
+}
+
+
 .section__padding {
   padding: 4rem 6rem;
 }
@@ -20,7 +25,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   min-height: 100vh;
 }
 
