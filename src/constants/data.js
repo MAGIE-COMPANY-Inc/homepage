@@ -20,9 +20,9 @@ export const cocktails = [
     tags: " DITA LYCHEE | Grapefruit Juice | Tonic Water",
   },
   {
-    title: "Golang",
+    title: "Rust",
     price: "¥700",
-    tags: "LEJAY PEACH | BLUE CURACAO | Grapefruit Juice | Tonic Water",
+    tags: "CAPPARI | Coke",
   },
 ];
 
