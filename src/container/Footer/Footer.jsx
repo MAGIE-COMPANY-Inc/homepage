@@ -19,7 +19,7 @@ const Footer = () => (
 
       <div className="app__footer-links_logo">
         <p className="p__opensans">&quot;世界中のエンジニアとの交流も支援しています&quot;</p>
-        <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
+        <img src={images.spoon} className="footer_section" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
           <a
             href="https://twitter.com/EngineerBarKobe"

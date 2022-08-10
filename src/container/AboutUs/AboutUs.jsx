@@ -10,7 +10,7 @@ const AboutUs = () => (
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
-        <img src={images.spoon} alt="about_spoon" className="spoon__img" />
+        <img src={images.spoon} alt="about_section" className="spoon__img" />
         <p className="p__opensans">2022年5月に神戸三宮に「エンジニアが集まるバー」としてオープンいたしました</p>
         <p className="p__opensans">エンジニア同士だからこそ繰り広げられるこの空間をどうぞお楽しみください</p>
         {/* <button type="button" className="custom__button">Know More</button> */}
