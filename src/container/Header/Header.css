@@ -4,7 +4,7 @@
 
 .app__header-h1 {
     font-family: var(--font-base);
-    background: -webkit-linear-gradient(0deg, #BA55D3, #4B0082);
+    background: var(--color-golden);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
