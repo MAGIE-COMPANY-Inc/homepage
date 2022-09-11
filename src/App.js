@@ -1,4 +1,4 @@
-import { AboutUs, Footer, Gallery, Header, Menu } from './container';
+import { AboutUs, FindUs, Footer, Gallery, Header, Menu, Staff } from './container';
 import { Navbar } from './components';
 import './App.css';
 
@@ -8,7 +8,9 @@ const App = () => (
     <Header />
     <AboutUs />
     <Menu />
+    <Staff />
     <Gallery />
+    <FindUs />
     <Footer />
   </div>
 );
