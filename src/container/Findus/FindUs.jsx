@@ -1,7 +1,6 @@
 import { FiTwitter, FiInstagram, FiLinkedin } from 'react-icons/fi';
 import { SubHeading } from '../../components';
 import Map from '../../components/Footer/GoogleMap';
-import images from '../../constants/images';
 
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
@@ -13,35 +12,33 @@ const FindUs = () => (
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Opening Hours</p>
         <p className="p__opensans">Fri - Sat: 18:00 pm - 23:00 pm</p>
       </div>
-    </div>
-    <div className="app__footer-links_logo">
-      <p className="p__opensans">&quot;世界中のエンジニアとの交流も支援しています&quot;</p>
-      <img src={images.spoon} className="footer_section" style={{ marginTop: 15 }} />
-      <div className="app__footer-links_icons">
-        <a
-          href="https://twitter.com/EngineerBarKobe"
-          style={{ color: 'white' }}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FiTwitter />
-        </a>
-        <a
-          href="https://www.instagram.com/kobe.engineer_bar/"
-          style={{ color: 'white' }}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FiInstagram />
-        </a>
-        <a
-          href="https://www.linkedin.com/company/hack-bar/"
-          style={{ color: 'white' }}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FiLinkedin />
-        </a>
+      <div className="app__footer-links_logo">
+        <div className="app__footer-links_icons">
+          <a
+            href="https://twitter.com/EngineerBarKobe"
+            style={{ color: 'white' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiTwitter />
+          </a>
+          <a
+            href="https://www.instagram.com/kobe.engineer_bar/"
+            style={{ color: 'white' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiInstagram />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/hack-bar/"
+            style={{ color: 'white' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiLinkedin />
+          </a>
+        </div>
       </div>
     </div>
     <Map />
