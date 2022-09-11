@@ -10,6 +10,7 @@ import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
 import welcome from '../assets/welcome.jpg';
 import quote from '../assets/quote.png';
+import shouhi from '../assets/shouhi.jpg';
 
 const images = {
   bg,
@@ -24,6 +25,7 @@ const images = {
   spoon,
   welcome,
   quote,
+  shouhi,
 };
 
 export default images;
