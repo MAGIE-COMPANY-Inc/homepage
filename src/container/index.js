@@ -5,6 +5,7 @@ import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Menu from './Menu/Menu';
 import Staff from './Staff/Staff';
+import Calender from './Calender/Calender';
 
 export {
   AboutUs,
@@ -14,4 +15,5 @@ export {
   Header,
   Menu,
   Staff,
+  Calender,
 };
