@@ -9,8 +9,8 @@ const Header = () => (
       <h1 className="app__header-h1">Hack.BAR</h1>
       <p className="p__opensans" style={{ margin: '2rem 0' }}>神戸三宮駅から徒歩5分。「エンジニアが集まるバー」としてオープンしました</p>
       <button type="button" className="custom__button">
-        <a href="#menu">
-          Explore Menu
+        <a href="https://hack-bar.vercel.app">
+          裏ホームページ
         </a>
       </button>
     </div>
