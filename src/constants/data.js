@@ -67,6 +67,31 @@ export const cocktails2 = [
     price: '¥700',
     tags: '東京にあるHackersBarの中尾様から公認で頂いたためメニューの公表は致しかねます。',
   },
+  {
+    title: 'C++',
+    price: '¥700',
+    tags: 'BLUE CURACAO | Lemon Juice | Soda',
+  },
+  {
+    title: 'TypeScript',
+    price: '¥700',
+    tags: 'CALPICO | Vodka | BLUE CURACAO | Tonic Water',
+  },
+  {
+    title: 'PHP',
+    price: '¥700',
+    tags: 'Barley Shochu | Violet Liqueur | Lemon Juice | Tonic Water',
+  },
+  {
+    title: 'Dart',
+    price: '¥700',
+    tags: 'Gin | BLUE CURACAO | Lemon',
+  },
+  {
+    title: 'Fortran',
+    price: '¥700',
+    tags: 'Violet Liqueur | Gin | Lemon',
+  },
 ];
 
 export const whiskys = [
