@@ -32,6 +32,7 @@ module.exports = {
       2,
       550,
     ],
+    quotes: "off",
     'no-multiple-empty-lines': [
       'error',
       {
