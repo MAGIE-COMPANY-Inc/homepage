@@ -609,7 +609,7 @@ export const events = [
     id: "60",
     start: "2023-03-17",
     end: "",
-    title: "18:00~ @masashi_navi",
+    title: "18:00~ @shouhi_ide",
     description: "",
     backgroundColor: "grey",
     borderColor: "grey",

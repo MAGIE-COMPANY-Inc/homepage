@@ -1,6 +1,6 @@
-import { FooterOverlay } from '../../components';
-import Twitter from '../../components/Footer/Twitter';
-import './Footer.css';
+import { FooterOverlay } from "../../components";
+import Twitter from "../../components/Footer/Twitter";
+import "./Footer.css";
 
 const Footer = () => (
   <div className="app__footer section__padding">
@@ -8,7 +8,7 @@ const Footer = () => (
     <Twitter />
 
     <div className="footer__copyright">
-      <p className="p__opensans">2022 Hack.BAR. All Rights reserved.</p>
+      <p className="p__opensans">2023 Hack.BAR. All Rights reserved.</p>
     </div>
   </div>
 );
