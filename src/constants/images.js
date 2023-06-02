@@ -12,6 +12,7 @@ import welcome from "../assets/welcome.jpg";
 import quote from "../assets/quote.png";
 import shouhi from "../assets/shouhi.jpg";
 import logo from "../assets/logo-trans.png";
+import owner from "../assets/john_doe.png";
 
 const images = {
   bg,
@@ -28,6 +29,7 @@ const images = {
   quote,
   shouhi,
   logo,
+  owner,
 };
 
 export default images;

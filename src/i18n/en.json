@@ -1,14 +1,14 @@
 {
   "header": {
-     "title": "Engineer's Bar",
-     "description": "5 minutes walk from Kobe Sannomiya Station. Opened as a bar where engineers gather",
-     "subHomepageButton": "Other Homepage"
-   },
-   "aboutUs": {
+    "title": "Engineer's Bar",
+    "description": "5 minutes walk from Kobe Sannomiya Station. Opened as a bar where engineers gather",
+    "subHomepageButton": "Other Homepage"
+  },
+  "aboutUs": {
     "description1": "We opened in May 2022 in Sannomiya, Kobe as a bar where engineers gather",
     "description2": "Please enjoy this space where engineers can meet each other"
-   },
-   "menu": {
+  },
+  "menu": {
     "JackDaniel's": "The most popular Jack Daniel's Black. This brand is ranked separately from bourbon as Tennessee whiskey!",
     "ChivasRegal12years": "It is a rich, smooth-tasting whiskey created by the artful blending (art of blending) of malt and grain whiskeys of varying character.",
     "ChivasRegalMIZUNARA12years": "Married and finished in rare Mizunara oak casks native to Japan, this whisky is a heartfelt gift from Scotland to Japan. It is mellow and has a rich honey-like sweetness.",
@@ -16,18 +16,18 @@
     "Ballantines": "This whisky is renowned as The Scotch and is characterized by its gorgeous aroma, sweetness, Islay smokiness, and peat aroma. Its well-balanced flavor and mellow aroma make it easy to drink even for whisky beginners.",
     "BOWMORE": "It has a smoky, mellow peat aroma. It also has a gorgeous sweetness that can be sensed deep in the flavor. Although it is very peculiar, Bowmore is regarded as the Queen of Islay Malts because of this sweetness.",
     "Ardbeq": "Its distinctive smokiness and aroma reminiscent of the seashore (peat aroma) is a taste that divides people into two distinct tastes. Ardbeg is characterized by its strong and smoky character, which is unique among Islay malts."
-   },
-   "staff": {
+  },
+  "staff": {
     "ownersWord1": "Engineers from Japan and around the world meet and connect in the environment of a hack bar, creating invaluable time and opportunities.",
     "ownersWord2": "I believe that offline interaction has decreased in Japan, where remote work has been encouraged due to the Corona disaster. I would like to bring back the interaction and encounters that have been lost due to the online world through this hack bar."
-   },
-   "instagram": {
+  },
+  "instagram": {
     "description": "Enjoy the monthly events and the relaxed atmosphere of the restaurant!"
-   },
-   "findUs": {
-    "address": "First basement floor of Fujishima Building, 4-7-26 Kano-machi, Chuo-ku, Kobe, Hyogo, Japan"
-   },
-   "twitter":{
+  },
+  "findUs": {
+    "address": "4F 2-10 Nakayamate-dori, Chuo-ku, Kobe-shi, Hyogo 650-0004, Japan"
+  },
+  "twitter": {
     "description": "We are mainly on Twitter. Please follow us and enjoy the new information!"
-   }
- }
+  }
+}

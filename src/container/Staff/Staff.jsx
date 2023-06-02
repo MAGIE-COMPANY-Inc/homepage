@@ -23,6 +23,7 @@ const Staff = () => {
         <div className="app__staff-sign">
           <p>Shouhi Ide</p>
           <p className="p__opensans">Owner & Founder</p>
+          <img src={images.owner} alt="Owner"></img>
         </div>
       </div>
     </div>
