@@ -25,7 +25,7 @@ const FindUs = () => {
         <div className="app__footer-links_logo">
           <div className="app__footer-links_icons">
             <a
-              href="https://twitter.com/EngineerBarKobe"
+              href="https://twitter.com/HackBarKobe"
               style={{ color: "white" }}
               target="_blank"
               rel="noopener noreferrer"
