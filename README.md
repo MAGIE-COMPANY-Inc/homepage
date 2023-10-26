@@ -1,6 +1,6 @@
 <div align="center">
-<!--   <img src="https://firebasestorage.googleapis.com/v0/b/hackbar-attendance.appspot.com/o/Hack.BAR.jpg?alt=media&token=4022dc38-22a1-4564-bf92-d333f1152bbb" alt="Hack.BAR Logo" width="360"> -->
-  <h1>Welcome to the Hack.BAR</h1>
+<!--   <img src="https://firebasestorage.googleapis.com/v0/b/hackbar-attendance.appspot.com/o/HACK.BAR.jpg?alt=media&token=4022dc38-22a1-4564-bf92-d333f1152bbb" alt="HACK.BAR Logo" width="360"> -->
+  <h1>Welcome to the HACK.BAR</h1>
   <strong>Bar where engineers meet 👩🏽‍💻</strong>
   <h6>Made with ❤️ &nbsp;by developers for developers</h6>
 </div>
@@ -60,10 +60,10 @@ npm は Node.js とともに配布されるため、Node.js をインストー�
 コマンドで行う場合
 
 ```
-git clone https://github.com/MAGIE-COMPANY-Inc/Hack.BAR-Homepage.git
+git clone https://github.com/MAGIE-COMPANY-Inc/HACK.BAR-Homepage.git
 ```
 
-VS Code で行う場合は、リポジトリをクローンする（英語だと Clone Repository）というボタンがあるので、それをクリックしていただき、`https://github.com/https://github.com/MAGIE-COMPANY-Inc/Hack.BAR-Homepage.git` を入力してエンターを押してください。
+VS Code で行う場合は、リポジトリをクローンする（英語だと Clone Repository）というボタンがあるので、それをクリックしていただき、`https://github.com/https://github.com/MAGIE-COMPANY-Inc/HACK.BAR-Homepage.git` を入力してエンターを押してください。
 
 ### ③ 依存関係のインストール
 
@@ -123,13 +123,13 @@ Thanks goes to these wonderful people
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://twitter.com/craftbossa"><img src="https://user-images.githubusercontent.com/63713624/123041698-9f3c9b00-d430-11eb-8faf-e98e27e347db.jpg" width="100px;" alt=""/><br /><sub><b>井手翔陽</b></sub></a><br /><a href="https://github.com/MAGIE-COMPANY-Inc/Hack.BAR-Homepage/commits?author=shouhi" title="Documentation">📖</a> <a href="#projectManagement-shouhi" title="Project Management">📆</a>
+    <td align="center"><a href="https://twitter.com/craftbossa"><img src="https://user-images.githubusercontent.com/63713624/123041698-9f3c9b00-d430-11eb-8faf-e98e27e347db.jpg" width="100px;" alt=""/><br /><sub><b>井手翔陽</b></sub></a><br /><a href="https://github.com/MAGIE-COMPANY-Inc/HACK.BAR-Homepage/commits?author=shouhi" title="Documentation">📖</a> <a href="#projectManagement-shouhi" title="Project Management">📆</a>
     </td>
 </table>
 
 Feel free to reach out to us and say hi 👋.
 
-## 💬 What Do You Think of Hack.BAR?
+## 💬 What Do You Think of HACK.BAR?
 
 > please write to Issue in this repository
 

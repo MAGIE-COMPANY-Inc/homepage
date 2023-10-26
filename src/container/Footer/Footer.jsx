@@ -8,7 +8,7 @@ const Footer = () => (
     <Twitter />
 
     <div className="footer__copyright">
-      <p className="p__opensans">2023 Hack.BAR. All Rights reserved.</p>
+      <p className="p__opensans">2023 HACK.BAR. All Rights reserved.</p>
     </div>
   </div>
 );

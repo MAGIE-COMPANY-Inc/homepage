@@ -15,7 +15,7 @@ const Twitter = () => {
         <SubHeading title="Twitter" />
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="EngineerBarKobe"
+          screenName="HackBarKobe"
           options={{ height: 400 }}
           tweetLimit="5"
         />
@@ -26,7 +26,7 @@ const Twitter = () => {
           {t("twitter.description")}
         </p>
         <TwitterHashtagButton tag="ハックバー" />
-        <TwitterFollowButton screenName="EngineerBarKobe" />
+        <TwitterFollowButton screenName="HackBarKobe" />
       </div>
     </div>
   );

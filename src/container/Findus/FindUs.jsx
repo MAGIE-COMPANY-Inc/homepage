@@ -33,7 +33,7 @@ const FindUs = () => {
               <FiTwitter />
             </a>
             <a
-              href="https://www.instagram.com/kobe.engineer_bar/"
+              href="https://www.instagram.com/HACK.BAR_kobe/"
               style={{ color: "white" }}
               target="_blank"
               rel="noopener noreferrer"

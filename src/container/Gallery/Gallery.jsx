@@ -37,7 +37,7 @@ const Gallery = () => {
         </p>
         <button type="button" className="custom__button">
           <a
-            href="https://www.instagram.com/kobe.engineer_bar/"
+            href="https://www.instagram.com/HACK.BAR_kobe/"
             style={{ color: "black" }}
             target="_blank"
             rel="noopener noreferrer"
